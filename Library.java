@@ -15,7 +15,7 @@ public class Library {
     BufferedReader bf = new BufferedReader(new FileReader(new File("C:\\Users\\Michał\\IdeaProjects\\Library1\\Spis.txt")));
     FileWriter fw = new FileWriter("Spis.txt",true);
     Scanner in = new Scanner(System.in);
-    //ciekawe czy bedzie sie swiecic na czerwono?
+    
 
     public Library() throws IOException {
 
